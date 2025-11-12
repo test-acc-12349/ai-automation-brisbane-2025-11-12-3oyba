@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Automation Brisbane Blog - Best AI n8n Automation insights. Smart Workflow Automation, Expert n8n Setup. Save Time, Cut Costs, Scale Fast.">
+    <meta name="keywords" content="AI Automation Blog, n8n Automation, Brisbane, Workflow Automation, AI Services, Automation Tips">
+    <meta name="author" content="AI Automation Brisbane">
+    <meta name="robots" content="index, follow">
+    <title>Blog | AI Automation Brisbane | Best AI n8n Automation Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        .heading-primary {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        
+        .text-light {
+            font-weight: 300;
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid #000000;
+            color: #000000;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+            padding: 12px 24px;
+            font-weight: 500;
+        }
+        
+        .btn-outline:hover {
+            background-color: #000000;
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+        
+        .btn-primary {
+            background-color: transparent;
+            border: 2px solid #4A90E2;
+            color: #4A90E2;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+            padding: 12px 24px;
+            font-weight: 500;
+        }
+        
+        .btn-primary:hover {
+            background-color: #4A90E2;
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+        
+        .card-base {
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transform: scale(1.02);
+        }
+        
+        .faq-item {
+            border-bottom: 1px solid #e5e7eb;
+            padding: 24px 0;
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            color: #4A90E2;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-answer {
+            margin-top: 16px;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #4b5563;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+        }
+        
+        .feature-icon {
+            font-size: 32px;
+            color: #4A90E2;
+        }
+        
+        .testimonial-card {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 32px;
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transform: translateY(-4px);
+        }
+        
+        .star-rating {
+            color: #fbbf24;
+        }
+        
+        .section-divider {
+            height: 1px;
+            background-color: #e5e7eb;
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .blog-card {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 32px;
+            transition: all 0.3s ease;
+        }
+        
+        .blog-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+        }
+        
+        .blog-date {
+            color: #4A90E2;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .blog-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        
+        .blog-excerpt {
+            color: #4b5563;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body class="bg-white text-black">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba" class="heading-primary text-2xl font-bold text-black">
+                    <i class="fas fa-robot mr-2 text-blue-500"></i>AI Automation
+                </a>
+            </div>
+            
+            <!-- Back Link -->
+            <div class="flex items-center">
+                <a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba" class="text-black text-light hover:text-blue-500 transition-colors duration-200">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Header Section -->
+    <section class="hero-section py-16 md:py-24 lg:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="heading-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
+                    Our Blog
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 text-light mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Discover insights, best practices, and expert guidance on AI automation, n8n workflow optimization, and digital transformation strategies that drive business success.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Purpose Section -->
+    <section class="py-12 md:py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="heading-primary text-2xl md:text-3xl font-bold mb-4 tracking-tight">
+                    What You'll Learn
+                </h2>
+                <p class="text-lg text-gray-700 text-light leading-relaxed mb-8">
+                    Our blog is dedicated to helping businesses unlock the transformative power of intelligent automation. Here you'll find in-depth guides, case studies, industry insights, and practical tips on implementing n8n workflows, optimizing business processes, and achieving measurable ROI through automation. Whether you're just beginning your automation journey or looking to scale your existing infrastructure, our expert content will help you make informed decisions and maximize the value of your automation investments.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-lg border border-gray-200">
+                        <i class="fas fa-lightbulb text-blue-500 text-3xl mb-3"></i>
+                        <h3 class="heading-primary font-bold mb-2">Expert Insights</h3>
+                        <p class="text-gray-600 text-light text-sm">Industry best practices and automation strategies</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border border-gray-200">
+                        <i class="fas fa-cogs text-blue-500 text-3xl mb-3"></i>
+                        <h3 class="heading-primary font-bold mb-2">Technical Guides</h3>
+                        <p class="text-gray-600 text-light text-sm">Step-by-step tutorials and implementation guides</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border border-gray-200">
+                        <i class="fas fa-chart-line text-blue-500 text-3xl mb-3"></i>
+                        <h3 class="heading-primary font-bold mb-2">Case Studies</h3>
+                        <p class="text-gray-600 text-light text-sm">Real-world success stories and ROI analysis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="heading-primary text-3xl md:text-4xl font-bold mb-8 tracking-tight">
+                    Latest Article
+                </h2>
+            </div>
+            
+            <div class="blog-card">
+                <div class="mb-4">
+                    <span class="blog-date">
+                        <i class="fas fa-calendar-alt mr-2"></i>November 13, 2025
+                    </span>
+                </div>
+                
+                <h3 class="blog-title text-3xl md:text-4xl font-bold mb-6">
+                    Getting Started with Our Platform
+                </h3>
+                
+                <p class="blog-excerpt text-lg leading-relaxed mb-8">
+                    n8n workflow automation revolutionizes business operations by intelligently automating repetitive tasks, delivering transformative benefits across organizations. This comprehensive guide explores how n8n enables companies to reclaim thousands of hours annually while dramatically improving accuracy and compliance. The platform connects disparate systems through an intuitive visual interface, making sophisticated automation accessible to non-technical users. Key benefits include 80-95% time reductions, significant cost savings, error elimination, and seamless scalability. Real-world applications span finance, CRM, HR, and e-commerce. Successful implementation requires strategic assessment, proper infrastructure design, thorough testing, and continuous optimization. Professional guidance ensures maximum ROI and sustainable automation success.
+                </p>
+                
+                <a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba/blog/getting-started-with-our-platform.html" class="btn-primary inline-flex items-center">
+                    Read More <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="heading-primary text-3xl md:text-4xl font-bold mb-4 tracking-tight">
+                    More Articles Coming Soon
+                </h2>
+                <p class="text-lg text-gray-600 text-light">
+                    We're regularly publishing new content on automation strategies, n8n best practices, and industry insights. Check back soon for more articles.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Placeholder for Future Blog Post 1 -->
+                <div class="blog-card opacity-50">
+                    <div class="mb-4">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar-alt mr-2"></i>Coming Soon
+                        </span>
+                    </div>
+                    <h3 class="blog-title text-2xl font-bold mb-4">
+                        Advanced n8n Workflow Patterns
+                    </h3>
+                    <p class="blog-excerpt mb-6">
+                        Explore advanced workflow patterns and architectural best practices for building scalable, maintainable automation solutions...
+                    </p>
+                    <button disabled class="btn-primary inline-flex items-center opacity-50 cursor-not-allowed">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+
+                <!-- Placeholder for Future Blog Post 2 -->
+                <div class="blog-card opacity-50">
+                    <div class="mb-4">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar-alt mr-2"></i>Coming Soon
+                        </span>
+                    </div>
+                    <h3 class="blog-title text-2xl font-bold mb-4">
+                        Maximizing ROI from Your Automation Investment
+                    </h3>
+                    <p class="blog-excerpt mb-6">
+                        Learn how to measure, track, and optimize the return on investment from your automation initiatives...
+                    </p>
+                    <button disabled class="btn-primary inline-flex items-center opacity-50 cursor-not-allowed">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 md:py-32 bg-black text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="heading-primary text-3xl md:text-4xl lg:text-5xl font-bold mb-6 tracking-tight">
+                    Ready to Transform Your Business?
+                </h2>
+                <p class="text-lg text-gray-300 text-light mb-8 leading-relaxed">
+                    Discover how intelligent automation can revolutionize your operations. Contact our team today for a personalized consultation and learn how we can help you achieve your automation goals.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba" class="btn-primary bg-blue-500 border-blue-500 text-white px-8 py-4 text-lg font-semibold inline-flex items-center justify-center hover:bg-blue-600">
+                        Back to Home <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="heading-primary text-lg font-bold mb-4">AI Automation Brisbane</h3>
+                    <p class="text-gray-600 text-light text-sm leading-relaxed">
+                        Transforming businesses through intelligent automation and n8n expertise.
+                    </p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="#" class="text-black hover:text-blue-500 transition-colors duration-200" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-black hover:text-blue-500 transition-colors duration-200" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-black hover:text-blue-500 transition-colors duration-200" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-black hover:text-blue-500 transition-colors duration-200" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="heading-primary font-bold mb-4">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba#features" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Workflow Automation</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba#features" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">n8n Setup & Configuration</a></li>
+                        <li><a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Custom Integration</a></li>
+                        <li><a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">24/7 Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div>
+                    <h4 class="heading-primary font-bold mb-4">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba#about" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">About Us</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba#testimonials" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Testimonials</a></li>
+                        <li><a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Blog</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ai-automation-brisbane-2025-11-12-3oyba#contact" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="heading-primary font-bold mb-4">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-200 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-gray-600 text-light text-sm">
+                        &copy; 2025 AI Automation Brisbane. All rights reserved.
+                    </p>
+                    <div class="flex gap-6">
+                        <a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Privacy</a>
+                        <a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Terms</a>
+                        <a href="#" class="text-gray-600 text-light hover:text-blue-500 transition-colors duration-200 text-sm">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
